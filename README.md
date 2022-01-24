@@ -16,5 +16,7 @@ Some additional JARs have been included in the `lib/ext` folder:
 Usage
 -----
 
-The server is configured to use HTTP on the `8443` port configured to be exposed by an HTTPS reverse proxy.
+The server is configured to use plain HTTP on the `8080` port.
+
+If you deploy it behind a reverse proxy you must configure `default/start.d/server.ini` and `default/start.d/http.ini` accordingly.
 
