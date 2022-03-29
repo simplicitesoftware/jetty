@@ -24,7 +24,7 @@ lib/logging/logback-classic-${logback.version}.jar
 lib/logging/logback-core-${logback.version}.jar
 
 [ini]
-logback.version?=1.3.0-alpha10
+logback.version?=1.3.0-alpha13
 jetty.webapp.addServerClasses+=,ch.qos.logback.
 
 [license]

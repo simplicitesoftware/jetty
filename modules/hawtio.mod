@@ -27,7 +27,7 @@ http://github.com/hawtio/hawtio
 http://www.apache.org/licenses/LICENSE-2.0.html
 
 [ini]
-hawtio.version?=2.14.0
+hawtio.version?=2.14.4
 
 [ini-template]
 ## Hawt.io configuration

@@ -8,8 +8,13 @@ as they reduce data copies, avoid needless fragmentation and have better dispatc
 When enabled with corresponding support modules, the connector can 
 accept HTTP, HTTPS or HTTP2C traffic.
 
+[deprecated]
+Module 'unixsocket' is deprecated for removal.
+Use 'unixdomain-http' instead (requires Java 16 or later).
+
 [tags]
 connector
+deprecated
 
 [depend]
 server
@@ -25,13 +30,13 @@ lib/jnr/*.jar
 
 
 [files]
-maven://com.github.jnr/jffi/1.3.5|lib/jnr/jffi-1.3.5.jar
-maven://com.github.jnr/jffi/1.3.5/jar/native|lib/jnr/jffi-1.3.5-native.jar
-maven://com.github.jnr/jnr-constants/0.10.2|lib/jnr/jnr-constants-0.10.2.jar
-maven://com.github.jnr/jnr-enxio/0.32.9|lib/jnr/jnr-enxio-0.32.9.jar
-maven://com.github.jnr/jnr-ffi/2.2.7|lib/jnr/jnr-ffi-2.2.7.jar
-maven://com.github.jnr/jnr-posix/3.1.10|lib/jnr/jnr-posix-3.1.10.jar
-maven://com.github.jnr/jnr-unixsocket/0.38.11|lib/jnr/jnr-unixsocket-0.38.11.jar
+maven://com.github.jnr/jffi/1.3.9|lib/jnr/jffi-1.3.9.jar
+maven://com.github.jnr/jffi/1.3.9/jar/native|lib/jnr/jffi-1.3.9-native.jar
+maven://com.github.jnr/jnr-constants/0.10.3|lib/jnr/jnr-constants-0.10.3.jar
+maven://com.github.jnr/jnr-enxio/0.32.13|lib/jnr/jnr-enxio-0.32.13.jar
+maven://com.github.jnr/jnr-ffi/2.2.11|lib/jnr/jnr-ffi-2.2.11.jar
+maven://com.github.jnr/jnr-posix/3.1.15|lib/jnr/jnr-posix-3.1.15.jar
+maven://com.github.jnr/jnr-unixsocket/0.38.17|lib/jnr/jnr-unixsocket-0.38.17.jar
 maven://com.github.jnr/jnr-x86asm/1.0.2|lib/jnr/jnr-x86asm-1.0.2.jar
 maven://org.ow2.asm/asm-analysis/9.2|lib/jnr/asm-analysis-9.2.jar
 maven://org.ow2.asm/asm-commons/9.2|lib/jnr/asm-commons-9.2.jar

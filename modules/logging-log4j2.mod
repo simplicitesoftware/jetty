@@ -17,17 +17,17 @@ log4j
 
 [files]
 basehome:modules/logging/log4j2
-maven://org.apache.logging.log4j/log4j-slf4j18-impl/${log4j.version}|lib/logging/log4j-slf4j18-impl-${log4j.version}.jar
-maven://org.apache.logging.log4j/log4j-api/${log4j.version}|lib/logging/log4j-api-${log4j.version}.jar
-maven://org.apache.logging.log4j/log4j-core/${log4j.version}|lib/logging/log4j-core-${log4j.version}.jar
+maven://org.apache.logging.log4j/log4j-slf4j18-impl/${log4j2.version}|lib/logging/log4j-slf4j18-impl-${log4j2.version}.jar
+maven://org.apache.logging.log4j/log4j-api/${log4j2.version}|lib/logging/log4j-api-${log4j2.version}.jar
+maven://org.apache.logging.log4j/log4j-core/${log4j2.version}|lib/logging/log4j-core-${log4j2.version}.jar
 
 [lib]
-lib/logging/log4j-slf4j18-impl-${log4j.version}.jar
-lib/logging/log4j-api-${log4j.version}.jar
-lib/logging/log4j-core-${log4j.version}.jar
+lib/logging/log4j-slf4j18-impl-${log4j2.version}.jar
+lib/logging/log4j-api-${log4j2.version}.jar
+lib/logging/log4j-core-${log4j2.version}.jar
 
 [ini]
-log4j.version?=2.14.1
+log4j2.version?=2.17.1
 jetty.webapp.addServerClasses+=,org.apache.logging.log4j.
 
 [license]

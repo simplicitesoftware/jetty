@@ -28,7 +28,7 @@ http://www.apache.org/licenses/LICENSE-2.0.html
 
 [ini]
 connection-type?=address
-mongodb.version?=2.13.2
+mongodb.version?=3.2.2
 
 [ini-template]
 #jetty.session.mongo.dbName=HttpSessions
